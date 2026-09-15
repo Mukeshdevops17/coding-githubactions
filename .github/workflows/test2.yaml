@@ -1,5 +1,7 @@
 name: first job
-on: push
+on: 
+ push:
+ workflow_dispatch: 
 jobs:
   testing-on:
     runs-on: ubuntu-latest
