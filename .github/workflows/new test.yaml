@@ -1,6 +1,6 @@
 name: first job
 on: push
-job:
+jobs:
   echo-hello:
     runs-on: ubuntu-latest
     steps:
