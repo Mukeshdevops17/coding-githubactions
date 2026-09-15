@@ -1,8 +1,0 @@
-name: first job
-on: push
-job:
-  echo-hello:
-    runs-on:ubuntu-latest
-    steps:
-      - name: sayhello
-        run: echo "hello, world
